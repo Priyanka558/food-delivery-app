@@ -4,7 +4,7 @@ import {
     Text
 } from 'react-native';
 
-const MainLayout = () => {
+const MainLayout = ({navigation }:any) => {
     return (
         <View
             style={{
